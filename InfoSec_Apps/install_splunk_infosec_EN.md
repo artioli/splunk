@@ -213,7 +213,7 @@ may or may not work properly. If you are new to Splunk, follow [these instructio
 |	URL Toolbox	                                    |	[Splunkbase](https://splunkbase.splunk.com/app/2734/) |
 |	TA-VirusTotalActions	                          |	[Splunkbase](https://splunkbase.splunk.com/app/3446/) |
 | ----------- | -------- |
-|	Splunk Common Information Model *already installed with InfoSec* |	[Splunkbase](https://splunkbase.splunk.com/app/1621/) |
+|	Splunk Common Information Model **already installed with InfoSec** |	[Splunkbase](https://splunkbase.splunk.com/app/1621/) |
 |	Splunk Security Essentials *already installed with InfoSec*  |	[Splunkbase](https://splunkbase.splunk.com/app/3435/) |
 
 ---
