@@ -171,7 +171,8 @@ A sample security dataset and CTF platform for information security professional
 
 The apps required to make this dataset work are present [here](link). Alternatively they can be downloaded individually from the links bellow.
 
-| Method 1  |   Method 2  |
+| Method 1            |   Method 2         |
+|:------------------- |:-------------------|
 | Download using the git clone command  | Download the repository as a ZIP file and send it to the Splunk server using your prefered method |
 | ``` git clone https://github.com/artioli/splunk.git ``` | Click on the "Code" button near the top right of the repository page. Select "Download ZIP" from the dropdown menu. |
 
