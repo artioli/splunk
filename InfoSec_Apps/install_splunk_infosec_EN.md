@@ -174,7 +174,10 @@ The apps required to make this dataset work are present [here](link). Alternativ
 | Method 1            |   Method 2         |
 |:------------------- |:-------------------|
 | Download using the git clone command  | Download the repository as a ZIP file and send it to the Splunk server using your prefered method |
-| ``` git clone https://github.com/artioli/splunk.git ``` | Click on the "Code" button near the top right of the repository page. Select "Download ZIP" from the dropdown menu. |
+| ``` 
+git clone https://github.com/artioli/splunk.git 
+``` 
+| Click on the "Code" button near the top right of the repository page. Select "Download ZIP" from the dropdown menu. |
 
 
 ### About the Required Apps
