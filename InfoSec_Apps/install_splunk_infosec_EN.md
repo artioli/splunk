@@ -161,30 +161,22 @@ After completing the initial installation:
 ## Boss of the SOC (BOTS) Dataset Version 3
 A sample security dataset and CTF platform for information security professionals, researchers, students, and enthusiasts.
 
-### Download
+### Download the Dataset
 
 | Dataset          | Description | Size | Format | MD5 |
 | ---------------- | ----------- | ---- | ------ | --- |
 | [BOTS V3 Dataset](https://botsdataset.s3.amazonaws.com/botsv3/botsv3_data_set.tgz) |  BOTSv3 dataset. | 320.1MB | Pre-indexed Splunk | d7ccca99a01cff070dff3c139cdc10eb |
 
+### Download the Required Apps
 
-### Installation
-1. Download the dataset file indicated above and check the MD5 hash to ensure integrity.
-2. Install Splunk Enterprise and the apps/add-ons listed in the *Required Software* section below. It is important to match the specific version of each app and add-on.
-3. Unzip/untar the downloaded file into $SPLUNK_HOME/etc/apps
-4. Restart Splunk
-5. The BOTS v3 data will be available by searching:
-```
-index=botsv3 earliest=0
-```
-6. Note that because the data is distributed in a pre-indexed format, there are no volume-based licensing limits to be concerned with.
+The apps required to make this dataset work are present [here](link). Alternatively they can be downloaded individually from the links bellow.
+| Method 1  | Method 2 |
+| Download using the git clone command | Download the repository as a ZIP file and send it to the Splunk server using your prefered method |
+| ``` git clone https://github.com/artioli/splunk.git ``` | Click on the "Code" button near the top right of the repository page. Select "Download ZIP" from the dropdown menu. |
 
 
-### Required Apps
-The dataset requires the following software which is distributed and licensed separately
-and should be installed before using the dataset. The versions listed are
-those that were used to create the dataset. Different versions of the software
-may or may not work properly. If you are new to Splunk, follow [these instructions](http://docs.splunk.com/Documentation/Splunk/latest/Installation/Whatsinthismanual) to install the free Splunk Enterprise trial and [these instructions](https://docs.splunk.com/Documentation/AddOns/released/Overview/Singleserverinstall) to install apps and add-ons.
+### About the Required Apps
+The dataset requires the following apps which are distributed and licensed separately and **should be installed before using the dataset**. We are using different app versions from the originally intended use of the dataset and some things may not work properly, but it will work fine for lab purposes. More information about BOTS v3 can be found [here](https://github.com/splunk/botsv3).
 
 
 |	App / Add-on	|	Link |
@@ -213,8 +205,22 @@ may or may not work properly. If you are new to Splunk, follow [these instructio
 |	URL Toolbox	                                    |	[Splunkbase](https://splunkbase.splunk.com/app/2734/) |
 |	TA-VirusTotalActions	                          |	[Splunkbase](https://splunkbase.splunk.com/app/3446/) |
 | ----------- | -------- |
-|	Splunk Common Information Model **already installed with InfoSec** |	[Splunkbase](https://splunkbase.splunk.com/app/1621/) |
-|	Splunk Security Essentials *already installed with InfoSec*  |	[Splunkbase](https://splunkbase.splunk.com/app/3435/) |
+|	Splunk Common Information Model --**already installed with InfoSec**-- |	[Splunkbase](https://splunkbase.splunk.com/app/1621/) |
+|	Splunk Security Essentials --**already installed with InfoSec**--  |	[Splunkbase](https://splunkbase.splunk.com/app/3435/) |
+
+
+---
+
+### Installation
+1. Download the dataset file indicated above and check the MD5 hash to ensure integrity.
+2. Install Splunk Enterprise and the apps/add-ons listed in the *Required Software* section below. It is important to match the specific version of each app and add-on.
+3. Unzip/untar the downloaded file into $SPLUNK_HOME/etc/apps
+4. Restart Splunk
+5. The BOTS v3 data will be available by searching:
+```
+index=botsv3 earliest=0
+```
+6. Note that because the data is distributed in a pre-indexed format, there are no volume-based licensing limits to be concerned with.
 
 ---
 
