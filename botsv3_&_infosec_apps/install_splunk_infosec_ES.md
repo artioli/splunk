@@ -261,9 +261,8 @@ Si Splunk no está en funcionamiento, inícialo usando:
       - Web
 
    - Pasos
-      - En tu implementación de la plataforma Splunk, en Splunk Web, ve a **Settings > Data Models**.
-      - Selecciona **Edit > Edit Acceleration** para un modelo de datos acelerado que desees editar.
-      - Selecciona **Summary Range > All Time** y haz clic en **Save**.
+      - En Splunk Web, ve a **Settings > Data Models**.
+      - Para cada modelo de datos arriba, selecciona **Edit > Edit Acceleration**; **Summary Range > All Time** y **Save**.
       - > **Nota** Al acelerar modelos de datos a *All Time*, asegúrate de que esto solo se haga en un entorno de laboratorio controlado. En producción, considera el impacto en el rendimiento y el almacenamiento.
 
    - Consulta los [Documentación de Splunk® InfoSec App](https://docs.splunk.com/Documentation/InfoSec) para instrucciones detalladas.
