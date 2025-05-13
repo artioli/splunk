@@ -1,6 +1,4 @@
-Here's the translated guide in Spanish, formatted in Markdown:
 
-```markdown
 # Guía de Instalación de Splunk InfoSec
 
 Este documento proporciona una guía completa, paso a paso, para instalar **Splunk InfoSec**, basada en las mejores prácticas y recomendaciones oficiales de Splunk. Su objetivo es ayudar a los analistas de seguridad y arquitectos a implementar una solución InfoSec potente y escalable de manera eficiente.
